@@ -22,7 +22,6 @@ Or run:
 
 `$ php composer.phar require cenotia/yii2-calculator-widget "dev-master"` 
 
-You can manually install **FaiconSelector** by [downloading the source in ZIP-format](https://github.com/cenotia/yii2-fa-icon-selector/archive/master.zip).
 
 ## Using Calculator Widget ##
 
