@@ -1,8 +1,8 @@
 {
-    "name": "cenotia/yii2-chartjs-extended",
-    "description": "Extended ChartJs v2 for Yii2 widget",
+    "name": "cenotia/yii2-calculator-widget",
+    "description": "A calculator widget operated by vueJs",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","chartjs","widget"],
+    "keywords": ["yii2","extension","vuejs","widget"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -13,11 +13,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/chartjs": "^2.1.3"
+        "bower-asset/vuejs": "^2.1.3"
     },
     "autoload": {
         "psr-4": {
-            "cenotia\\components\\chartjs\\": ""
+            "cenotia\\components\\calculatorWidget\\": ""
         }
     }
 }
