@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class CalculatorAsset extends AssetBundle
 {
-    public $sourcePath = '@frontend/widgets/';
+    public $sourcePath = '@vendor/cenotia/yii2-calculator-widget';
     //public $baseUrl = '@web';
    
     public $css=[

@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class VuejsAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/vuejs';
+    public $sourcePath = '@bower/vue';
 
     public function init()
     {
