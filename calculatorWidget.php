@@ -32,7 +32,7 @@ class CalculatorWidget extends Widget
     public function run(){
         $this->registerAssets();
 
-        $this->html = '<div id="calculator">
+        $html = '<div id="calculator">
             <!-- Screen and clear key -->
             <div class="top">
                 <span class="clear" v-on:click="kpress">C</span>
@@ -59,7 +59,7 @@ class CalculatorWidget extends Widget
                 <span class="operator" v-on:click="kpress">*</span>
             </div>
         </div>';
-        return $this->html;
+        return $html;
     }
 
     protected function registerAssets() {
