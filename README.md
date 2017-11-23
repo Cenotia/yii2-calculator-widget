@@ -25,9 +25,9 @@ Or run:
 
 ## Using Calculator Widget ##
 
-**CalculatorWidget** is in namespace `cenotia\components\CalculatorWidget`.
+**CalculatorWidget** is in namespace `cenotia\components\calculatorWidget\CalculatorWidget`.
 
-For instance, to associate **CalculatorWidget** with the attribute `'cat_icon'` in a form view, use code like this:
+Usage:
 
     use cenotia\components\calculatorWidget\CalculatorWidget;
         
