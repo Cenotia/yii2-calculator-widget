@@ -29,10 +29,10 @@ Or run:
 
 For instance, to associate **CalculatorWidget** with the attribute `'cat_icon'` in a form view, use code like this:
 
-    use cenotia\components\CalculatorWidget;
+    use cenotia\components\calculatorWidget\CalculatorWidget;
         
 	...
-	<?php echo calculatorWidget::widget(CalculatorWidget::className()) ?>
+	<?php echo CalculatorWidget::widget(); ?>
 	...
 
 	
