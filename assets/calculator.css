@@ -1,17 +1,3 @@
-/* Quick reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* A nice BG gradient */
-html {
-	height: 100%;
-	background: white radial-gradient(circle, #999 20%, #777);
-	background-size: cover;
-	font: bold 14px 'Open Sans', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
-}
 
 #calculator {
 	width: 326px;
